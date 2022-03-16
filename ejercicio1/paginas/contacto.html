@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Ejercicio 1</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="quien-soy.html">Quien soy</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>  
+        <section>
+            <div>
+                <h1>Contacto</h1>
+                <p>Si quieres ser mi amigo enviame un mail completando el formulario abajo.</p>
+
+                <form action="">
+                    <fieldset>
+                        <legend>Ingrese sus Datos</legend><br>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" type="text" name="nombre" autofocus>
+                        </div>
+    
+                        <div>
+                            <label for="mail">Mail</label>
+                            <input id="mail" type="email" name="correo" required>
+                        </div>
+
+                        <div>
+                            <label for="contrasena">Contraseña</label>
+                            <input id="contrasena" type="password" name="contrasena">
+                        </div>
+
+                        <div>
+                            <input type="datetime-local">
+                        </div>
+
+                        <div>
+                            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Ingrese un comentario"></textarea>
+                        </div>                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Lenguages que Conoces</legend>
+                        <div>
+                            <label for="check">PHP</label>
+                            <input id="check" type="checkbox" name="php" checked>
+
+                            <label for="csharp">C#</label>
+                            <input id="csharp" type="checkbox" name="c#">
+
+                            <label for="java">Java</label>
+                            <input id="java" type="checkbox" name="java">
+
+                            <label for="python">Python</label>
+                            <input id="python" type="checkbox" name="python">
+                        </div>
+                    </fieldset>
+
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    
+        <footer>
+            <small>2022 © Codo a Codo - PHP</small>
+        </footer>
+    </main>
+
+</body>
+</html>
